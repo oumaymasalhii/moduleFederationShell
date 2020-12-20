@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import {rename} from 'core'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularModuleFederation';
+  constructor() {
+    // console.log(rename());
+  }
 }
